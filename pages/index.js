@@ -1,5 +1,8 @@
+import { JsonDB } from 'node-json-db';
+import { Config } from 'node-json-db/dist/lib/JsonDBConfig';
 
 function App() {
+    testAddUser();
     return (
         <div className="p-4">
             <div className="container">
@@ -8,6 +11,20 @@ function App() {
             </div>
         </div>
     );
+}
+
+function testAddUser(){
+    let db = new JsonDB(new Config("myDataBase", true, false, '/'));
+    let addUser = [{
+        firstName: "test",
+        lastname: 'tester',
+        email: 'test@tester.com',
+        username: 'testtester',
+        password: '12345678'
+    }];
+    db.push(addUser);
+    // db.save(true);
+
 }
 
 export default App;
