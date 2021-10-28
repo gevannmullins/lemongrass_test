@@ -1,18 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Open Sans', 'Lato', sans-serif;
+html,
+body,
+#__next {
+  height: 100%;
+  width: 100vw;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Lato', sans-serif;
+a { cursor: pointer; }
+
+.app-container {
+  min-height: 80px;
 }
+
+html,
+body {
+  min-height:auto;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* BG COLORS */
+.bg1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+.bg2 {
+  background-color: #3e0201;
+  color: #ffffff;
+}
+.bg3 {
+  background-color: #7c0700;
+  color: #ffffff;
+}
+.bg4 {
+  background-color: #ba1001;
+  color: #ffffff;
+}
+.bg5 {
+  background-color: #f81900;
+  color: #ffffff;
+}
+
+
+
+
