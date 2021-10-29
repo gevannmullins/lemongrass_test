@@ -14,8 +14,6 @@ function Edit({ id }) {
         userService.getById(id)
             .then(x => setUser(x))
             .catch(alertService.error)
-
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (

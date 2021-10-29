@@ -54,7 +54,7 @@ function App({ Component, pageProps }) {
           <Head>
               <title>LemonGrassCloud - Test</title>
           </Head>
-          <div>
+          <div className={`content-wrapper`}>
               <Header />
               <Alert />
               {authorized &&

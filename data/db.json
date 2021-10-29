@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "firstName": "gevann",
+        "lastName": "mullins",
+        "emailaddress": "gevann.mullins@gmail.com",
+        "username": "gevannmullins",
+        "hash": "$2a$10$DWq/jlbB5yL0Fsc7ZOgFA.wARKVfRMr31wx/OqtsObDL7avJ0VuJ.",
+        "id": 1,
+        "dateCreated": "2021-10-28T18:36:06.585Z",
+        "dateUpdated": "2021-10-28T18:36:06.585Z"
+    },
+    {
+        "firstName": "test",
+        "lastName": "user",
+        "emailaddress": "test@user.com",
+        "username": "testuser",
+        "hash": "$2a$10$d4Koiu/TXOE2aR1td9DituCpMmtkBRMtoOFDZ1lbhqCwr5jyVso9a",
+        "id": 2,
+        "dateCreated": "2021-10-29T07:43:40.606Z",
+        "dateUpdated": "2021-10-29T07:43:40.607Z"
+    }
+]

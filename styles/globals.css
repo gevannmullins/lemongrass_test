@@ -14,8 +14,9 @@ body,
 
 a { cursor: pointer; }
 
-.app-container {
-  min-height: 80px;
+.content-wrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 html,
