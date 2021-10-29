@@ -1,4 +1,5 @@
-import { apiHandler, usersRepo, omit } from 'helpers/api';
+import { apiHandler, omit } from 'helpers';
+import { usersRepo } from 'helpers/db';
 
 export default apiHandler({
     get: getUsers
