@@ -19,25 +19,15 @@ function Header() {
 
     // only show nav when logged in
     if (!user) return (
-    <div className={classes.header}>
-        <div className={`container`}>
-            <div className={`row`}>
-                <div className={`col-4`}>LemonGrassCloud</div>
+        <nav className="navbar fixed-top navbar-expand navbar-dark bg-dark">
+            <div className="navbar-brand">
+                <NavLink href="/">LemonGrassCloud</NavLink>
             </div>
-            <div className={`row`}>
-                <div className={`col-8 text-right`}>
-                    <ul>
-                        <li>
-                            <Link href="/login">Login</Link>
-                        </li>
-                        <li>
-                            <Link href="/register">Register</Link>
-                        </li>
-                    </ul>
-                </div>
+            <div className="navbar-nav">
+                <NavLink href="/login" exact className="nav-item nav-link">Login</NavLink>
+                <NavLink href="/register" className="nav-item nav-link">Register</NavLink>
             </div>
-        </div>
-    </div>
+        </nav>
     );
 
     return (
